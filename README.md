@@ -10,17 +10,38 @@ Rather than analyzing raw audio files, a subset of the Million Songs Dataset whi
 ## Results
 
 Model 1: regress bbhot artisthotttnesss duration familiarity key loudness mode tempo time_signature, r
-
+ 
 Model 2: regress songhotttness artisthotttnesss duration familiarity key loudness mode 
 tempo time_signature, r
+
+ <p align="center"> 
+    <img src="screenshots/stats.png">
+ </p>
+ 
+ <p align="center"> 
+    <img src="screenshots/regression.png">
+ </p>
 
 These regressions show that with both measures of popularity, artist hotness and loudness are statistically significant at any level. Additional factors like mode and familiarity were each significant in only one model.
 
 The R² value in in Model 1 was extremely low which suggests that while statistically different from 0, the features above did not explain much of the variation found. In Model 2, the R² value was much higher suggesting that much more variation was explained through the model.
 
+These are some of the results of looking at some of the song features across different genres:
+<p float="left">
+  <img src="screenshots/Tempo.png" width="100" />
+  <img src="screenshots/Loudness.png" width="100" /> 
+  <img src="screenshots/Duration.png" width="100" />
+</p>
+
 
 ## Conclusion 
 
 While it is clear that there are song attribute trends that vary from genre to genre, when analyzing the results from our regressions, it is difficult if not impossible to predict popularity for songs based on their characteristics. We believe this is the case for a variety of reasons; including the facts that  we are not analyzing the lyrical content of songs, we are not considering the pop culture trends that are taking place at the time the song was released, and we are not analyzing the mood or emotions the song elicits. 
-
-What comes from these findings is the conclusion that it is most likely the combination of a song’s attributes, its lyrics, and its context that make a song popular. In other words, its human creativity and ingenuity are what make a song special. Our work demonstrates that art is truly special because it embodies the human condition...there is something special about humanity that differentiates us from machines and other conscious beings that enables us to create music. 
+ <p align="center"> 
+    <img src="screenshots/US-Country.png">
+ </p>
+  <p align="center"> 
+    <img src="screenshots/US-HipHop.png">
+ </p>
+ 
+Most likely the combination of a song’s attributes, its lyrics, and its context that make a song popular. In other words, its human creativity and ingenuity are what make a song special. Our work demonstrates that art is truly special because it embodies the human condition...there is something special about humanity that differentiates us from machines and other conscious beings that enables us to create music. 
