@@ -41,7 +41,8 @@ These are some of the results of looking at some of the song features across dif
 
 ## Conclusion 
 
-While it is clear that there are song attribute trends that vary from genre to genre, when analyzing the results from our regressions, it is difficult if not impossible to predict popularity for songs based on their characteristics. We believe this is the case for a variety of reasons; including the facts that  we are not analyzing the lyrical content of songs, we are not considering the pop culture trends that are taking place at the time the song was released, and we are not analyzing the mood or emotions the song elicits. 
+Rather than analyzing raw audio files, a subset of the Million Songs Dataset which was parsed by the Echno Nest API to extract audio and descriptive features for each song. From this set of features we chose to focus our analysis around the following 10 key attributes: song hotness, artist hotness, duration, familiarity, key, loudness, tempo, time signature  and mode. The data set was compared a subset of Billboard Top 100 songs from 1958-2017 and used a boolean variable (bbhot) to indicate a songs presence in the Top 100 (1) or not (0). Data was analyzed across two popularity ratings: song hotness (as determined by echoNest based on plays and media coverage) and billboard presence.
+While it is clear that there are song attribute trends that vary from genre to genre, when analyzing the results from our regressions, it is difficult if not impossible to predict popularity for songs based on their characteristics. This is the case for a variety of reasons; including the facts that the lyrical content is not being analyzed, pop culture trends that are taking place at the time the song was released isn't being accounted for, and neither is the mood or emotions the song elicits. 
  <p align="center"> 
     <img src="screenshots/US-Country.png"  width="500">
  </p>
@@ -49,4 +50,4 @@ While it is clear that there are song attribute trends that vary from genre to g
     <img src="screenshots/US-HipHop.png"  width="500">
  </p>
  
-Most likely the combination of a song’s attributes, its lyrics, and its context that make a song popular. In other words, its human creativity and ingenuity are what make a song special. Our work demonstrates that art is truly special because it embodies the human condition...there is something special about humanity that differentiates us from machines and other conscious beings that enables us to create music. 
+Most likely the combination of a song’s attributes, its lyrics, and its context that make a song popular. In other words, its human creativity and ingenuity are what make a song special. This work demonstrates that art is truly special because it embodies the human condition...there is something special about humanity that differentiates us from machines and other conscious beings that enables us to create music. 
