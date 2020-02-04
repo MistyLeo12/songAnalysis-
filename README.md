@@ -28,9 +28,9 @@ The R² value in in Model 1 was extremely low which suggests that while statisti
 
 These are some of the results of looking at some of the song features across different genres:
 <p float="left">
-  <img src="screenshots/Tempo.png" width="300" />
-  <img src="screenshots/Loudnesss.png" width="300" /> 
-  <img src="screenshots/Duration.png" width="300" />
+  <img src="screenshots/Tempo.png" width="200" />
+  <img src="screenshots/Loudnesss.png" width="200" /> 
+  <img src="screenshots/Duration.png" width="200" />
 </p>
 
 
