@@ -27,13 +27,13 @@ These regressions show that with both measures of popularity, artist hotness and
 The R² value in in Model 1 was extremely low which suggests that while statistically different from 0, the features above did not explain much of the variation found. In Model 2, the R² value was much higher suggesting that much more variation was explained through the model.
 
 These are some of the results of looking at some of the song features across different genres:
-<p float="center">
+<p align="center">
   <img src="screenshots/Tempo.png" width="400" />
  </p>
- <p float="center">
+ <p align="center">
   <img src="screenshots/Loudnesss.png" width="400" /> 
  </p>
- <p float="center">
+ <p align="center">
   <img src="screenshots/Duration.png" width="400" />
   </p>
 
